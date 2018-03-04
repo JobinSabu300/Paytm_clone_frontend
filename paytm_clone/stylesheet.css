@@ -1,0 +1,218 @@
+body{
+	background-color: #f7f7f9;
+}
+
+.blue-section{
+    background-color: #012b72;
+    min-height: 200px;
+    margin-top: -20px;
+}
+
+.custom-well{
+    margin-top: 20px;
+    background-color: white;
+    background-image: none;
+}
+
+#sub-well-two{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.paytm-button{
+    background-color: #00b9f5;
+    background-image: none;
+    border: 0px;
+    border-radius: 4px;
+}
+
+.blue-section a:link {
+    text-decoration: none;
+}
+
+.blue-section a:visited {
+    text-decoration: none;
+}
+
+
+.blue-section a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+.blue-section a:active {
+    text-decoration: none;
+}
+
+#footer-sub{
+    background-color: #f3f7f8;
+    border-top: 1px solid #dbdbdb;
+}
+
+#footer-main{
+    background-color: #012b72;
+}
+
+#footer-sub h5{
+    color:#565656;
+    margin-top: 25px;
+}
+
+#footer-sub ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+#footer-sub hr{
+    margin: 5px;
+
+}
+
+#footer-sub ul li{
+margin-left: -38px;
+}
+
+#footer-sub a:link {
+    text-decoration: none;
+    color:#565656;
+    font-size: 12px;
+}
+
+#footer-sub a:visited {
+    text-decoration: none;
+    color:#565656;
+}
+
+
+#footer-sub a:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+
+#footer-sub a:active {
+    text-decoration: none;
+    color:#565656;
+}
+
+.vertical-line{
+    border-right: 1px solid #dbdbdb;
+    margin: 8px;
+    padding: 0px;
+}
+
+.glyphicon {
+    font-size: 35px;
+     color:#6d6c6c;
+}
+
+#sub-two{
+    margin: 0px;
+    padding: 0px;
+}
+
+#sub-two .vertical-line h4{
+    color:#6d6c6c;
+}
+
+
+#footer-main ul{
+    list-style: none;
+}
+
+#footer-main ul li{
+    float:left;
+    text-decoration: none;
+    padding-left: 15px;
+    margin-top: 17px;
+}
+
+#footer-main a:link {
+    color:white;
+    font-size: 12px;
+}
+
+#footer-main a:visited {
+    color:white;
+}
+
+
+#footer-main a:hover {
+    text-decoration: none;
+    color: #00b9f5;
+}
+
+
+#footer-main a:active {
+    color:white;
+}
+
+.glyphicon-search{
+    font-size: 20px;
+}
+
+#social-menu{
+    float: right;
+   margin-right: 60px;
+}
+
+#side-padding{
+    padding: 0px;
+    margin: 0px;
+}
+
+.carousel-indicators li{
+    visibility: hidden;
+}
+
+.carousel-controls{
+    color: white;
+}
+
+.carousel-control {
+  opacity: 0.5;
+}
+
+.carousel-control:hover {
+  opacity: 0.5;
+}
+
+#my-carousel{
+    margin-top: 20px;
+}
+
+
+.book-on-paytm ul{
+    list-style: none;
+    text-align: center;
+}
+
+.book-on-paytm{
+    margin-top: 20px;
+}
+
+.book-on-paytm a:link {
+    color:black;
+    font-size: 12px;
+}
+
+.book-on-paytm a:visited {
+    color:black;
+}
+
+
+.book-on-paytmn a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+
+.book-on-paytm a:active {
+    color:black;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}

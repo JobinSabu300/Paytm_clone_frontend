@@ -1,0 +1,387 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <!--image in title bar-->
+    <link rel="icon" type="image/png" href="logo.png">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+</head>
+<body>
+
+<!--NAVIGATION-->
+<nav role="navigation" class="navbar navbar-default">
+	<div class="container">
+        <div class="col-sm-2 col-xs-4">
+		<div class="navbar-header">
+			<a href="" class="navbar-brand"><img style="max-width:100px; margin-top: -7px;" src="logo.png"></a>
+		</div>
+    </div>
+
+<div class="col-sm-8 col-xs-4">
+        <form class="navbar-form" role="search">
+        <div class="input-group col-xs-12">
+            <input type="text" class="form-control" placeholder="Search for products" name="q">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+        </form>
+</div>
+
+<div style="margin-top: 12px;" class="col-sm-2 col-xs-4">
+        <div class="btn-group">
+       		<a href="" type="button" class="btn btn-info btn-sm paytm-button">Sign In</a>
+        	<a href="" type="button" class="btn btn-info btn-sm paytm-button">Sign Up</a>
+    	</div>
+    </div>
+</div>
+</nav>
+<!--END NAVIGATION-->
+
+<!--BLUE SECTION-->
+<div class="blue-section">
+
+<div class="container">
+    <div style="margin-top:50px;" class="row">
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m1.png"><br>
+            <p style="margin-top:10px;">Mobile</p></a>
+    </div>
+
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m2.png"><br>
+            <p style="margin-top:10px;">Electricity</p></a>
+    </div>
+
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m3.png"><br>
+            <p style="margin-top:10px;">DataCard</p></a>
+    </div>
+
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m4.png"><br>
+            <p style="margin-top:10px;">DTH</p></a>
+    </div>
+
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m5.png"><br>
+            <p style="margin-top:10px;">Metro</p></a>
+    </div>
+
+    <div style="display: inline; text-align:center;" class="col-sm-2">
+        <a href=""><img style="max-width:50px; margin-top: 15px;" src="blue_section/m6.png"><br>
+            <p style="margin-top:10px;">Broadband</p></a>
+    </div>
+</div>
+</div>
+
+</div>
+<!--END BLUE SECTION-->
+
+<!--FIRST WELL-->
+    <div class="container">
+        <div style="min-height: 150px;" class="well custom-well">
+            <div class="row">
+                <div class="col-md-8">
+            <p><strong>Mobile Recharge</strong></p>
+            <form>
+                <label class="radio-inline">
+                    <input type="radio" checked="checked" name="optradio">Prepaid
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="optradio">Postpaid
+                </label>
+            </form>
+            <br>
+            <br>
+            <form class="form-inline">
+                <div class="form-group">
+                     <label class="sr-only" for="mobile">Mobile No:</label>
+                     <input type="tel" class="form-control" id="mobile-no" placeholder="Enter Mobile Number"  name="email">
+                 </div>
+
+                 <div class="form-group">
+                     <label class="sr-only" for="sel1">plans:</label>
+                         <select required="" class="form-control" id="sel1">
+                             <option disabled="" selected="">Select Operator</option>
+                             <option>Airtel</option>
+                             <option>Aircel</option>
+                             <option>Idea</option>
+                             <option>Jio</option>
+                             <option>Vodafone</option>
+                        </select>
+                 </div>
+
+                  <div class="form-group">
+                     <label class="sr-only" for="mobile">Amount:</label>
+                     <input type="number" class="form-control" id="amount" placeholder="Enter Amount"  name="email">
+                 </div>
+            </form>
+        </div>
+
+        <div class="col-md-4">
+                   <br>
+        <br>
+        <br>
+            <form>
+                <label class="checkbox-inline">
+                    <input type="checkbox" value=""><strong>Remember Settings</strong>
+                </label>
+            </form> 
+            <button type="button" class="btn btn-primary btn-lg col-xs-12 paytm-button">Recharge Now</button>
+        </div>
+     </div  >
+    </div>
+    </div>
+<!--END FIRRST WELL-->
+
+<!--SECOND WELL-->
+    <div class="container">
+        <div style="min-height: 200px;" class="well custom-well">
+            <p><strong>Book on Paytm</strong></p>
+            <div class="book-on-paytm">
+            <div class="row">
+            <ul>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/movies.png"><p style="margin-top:10px;">Movies</p></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/flights.png"><p style="margin-top:10px;">Flights</p></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/bus.png"><p style="margin-top:10px;">Bus</p></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/trains.png"><p style="margin-top:10px;">Trains</p></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/hotels.png"><p style="margin-top:10px;">Hotles</p></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:50px; margin-top: 15px;" src="utilities/deals.png"><p style="margin-top:10px;">Deals</p></a></li>
+            </ul>
+            </div> 
+        </div>
+        </div>
+    </div>
+<!--END SECOND WELL-->
+
+<!--THIRD WELL-->
+<div class="container">
+<div class="row">
+    <div class="col-sm-7">
+        <div style="min-height: 480px;" class="well custom-well">
+             <p style="margin-top:10px;"><strong>Latest Offers &amp; Deals</strong></p>
+            <div class="carousel slide" data-ride="carousel" id="my-carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#my-carousel" data-slide-to="1"></li>
+                    <li data-target="#my-carousel" data-slide-to="2"></li>
+                    <li data-target="#my-carousel" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="main/main-one.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="main/main-two.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="main/main-three.jpg"/>
+                    </div>
+                    <div class="item">
+                        <img src="main/main-four.jpg"/>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#my-carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left carousel-controls"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                 <a class="right carousel-control" href="#my-carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right carousel-controls"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+            </div>
+
+
+        </div>
+    </div><!--END MAIN COL-->
+
+    <div class="col-sm-5">
+        <div style="min-height: 480px;" class="well custom-well" id="sub-well-two">
+        <div class="row">
+            <div id="side-padding" class="col-md-6">
+               
+                <a href="">
+                    <img style="border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-one.jpg"/>
+                </a>
+            </div>    
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img style="border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-two.jpg"/>
+                </a>
+            </div>      
+        </div>
+
+        <div class="row">
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img  style="border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-three.jpg"/>
+                </a>
+            </div>    
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img style="border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-four.jpg"/>
+                </a>
+            </div>
+            </div>  
+
+            <div class="row">
+            <div id="side-padding" class="col-md-6">
+               
+                <a href="">
+                    <img style="border-right:1px solid #dbdbdb; border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-one.jpg"/>
+                </a>
+            </div>    
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img style="border-bottom:1px solid #dbdbdb;" class="img-responsive" src="side/side-two.jpg"/>
+                </a>
+            </div>      
+        </div>
+
+        <div class="row">
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img style="border-right:1px solid #dbdbdb;" class="img-responsive" src="side/side-three.jpg"/>
+                </a>
+            </div>    
+            <div id="side-padding" class="col-md-6">
+                <a href="">
+                    <img class="img-responsive" src="side/side-four.jpg"/>
+                </a>
+            </div>
+            </div>          
+        </div>
+    </div><!--END MAIN COL-->
+</div><!--END ROW MAIN-->
+</div><!--END CONTAINER-->
+
+<!--END THIRD WELL-->
+
+<!--SECOND WELL-->
+    <div class="container">
+        <div style="min-height: 200px;" class="well custom-well">
+            <p><strong>Popular Brands</strong></p>
+            <div class="row book-on-paytm">
+            <ul>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/sony.jpg"></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/havells.jpg"></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/lenovo.jpg"></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/micromax.jpg"></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/lg.jpg"></a></li>
+                <li class="col-xs-2"><a href=""><img style="max-width:80px; margin-top: 10px;" src="popular_brands/oppo.jpg"></a></li>
+            </ul>
+            </div> 
+        </div>
+    </div>
+<!--END SECOND WELL-->
+
+<footer>
+<div style="min-height: 250px;" class="footer" id="footer-sub">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5> HELP </h5>
+            <ul>
+                <li><a href="">Payments</a><hr></li>
+                <li><a href="">Saved Cards</a><hr></li>
+                <li><a href="">Shipping</a><hr ></li>
+                <li><a href="">Cancellation & Returns</a><hr></li>
+                <li><a href="">FAQ</a></li>               
+            </ul>
+            </div>
+
+             <div class="col-md-4">
+                <h5> PAYTM </h5>
+            <ul>
+                <li><a href="">Contact Us</a><hr></li>
+                <li><a href="">About Us</a><hr></li>
+                <li><a href="">Careers</a><hr></li>
+                <li><a href="">Press</a><hr></li>
+                <li><a href="">Sell on Paytm</a></li>               
+            </ul>
+        </div>
+
+         <div class="col-md-4">
+            <h5> MISC </h5>
+            <ul>
+                <li><a href="">Online Shopping</a><hr></li>
+                <li><a href="">Affliate Program</a><hr></li>
+                <li><a href="">Gift Card</a><hr></li>
+                <li><a href="">Paytm Subscription</a><hr></li>
+                <li><a href="">Sitemap</a></li>               
+            </ul>
+        </div>
+       
+        </div>
+
+        
+ <hr style="margin-bottom:0px; margin-top:30px; padding:0px;">
+        <div class="row" id="sub-two">
+
+            <div class="col-md-4">
+                <div class="vertical-line text-center">
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                    <h4>TRACK YOUR ORDER</h4>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="vertical-line text-center">
+                    <span class="glyphicon glyphicon-refresh"></span>
+                    <h4>FREE &amp; EASY RETURNS</h4>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div style="margin:8px;" class="text-center">
+                    <span class="glyphicon glyphicon-remove-circle"></span>
+                    <h4 style="color:#6d6c6c;">ONLINE CANCELLATIONS</h4>
+                </div>
+            </div>
+            
+
+        </div>
+        <hr style="margin-bottom:30px; margin-top:0px; padding:0px;">
+
+       
+
+    </div>
+</div>
+<div style="min-height: 50px;" class="footer-bottom" id="footer-main">
+
+<ul>
+    <li><a href=""><b>About Us</b></a></li>
+    <li><a href=""><b>Partner with us</b></a></li>
+    <li><a href=""><b>Terms &amp; Conditions</b></a></li>
+    <li><a href=""><b>Blog</b></a></li>
+    <li><a href=""><b>Customer Service</b></a></li>
+</ul>
+
+<div id="social-menu">
+    <ul>
+    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src="social/facebook-logo.png"></a></li>
+    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src="social/twitter-black-shape.png"></a></li>
+    <li><a href=""><img style="max-width:18px; margin-top: -7px;" src="social/youtube-symbol.png"></a></li>
+</ul>
+</div>
+
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
